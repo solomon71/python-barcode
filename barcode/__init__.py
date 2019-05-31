@@ -17,7 +17,7 @@ from barcode.ean import EAN8, EAN13, EAN14, JAN
 from barcode.isxn import ISBN10, ISBN13, ISSN
 from barcode.upc import UPCA
 from barcode.itf import ITF
-from barcode.version import version  # noqa: F401
+# from barcode.version import version  # noqa: F401
 
 try:
     _strbase = basestring  # lint:ok

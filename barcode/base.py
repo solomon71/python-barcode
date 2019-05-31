@@ -19,10 +19,10 @@ class Barcode(object):
 
     default_writer_options = {
         'module_width': 0.2,
-        'module_height': 15.0,
-        'quiet_zone': 6.5,
-        'font_size': 10,
-        'text_distance': 5.0,
+        'module_height': 4.25,
+        'quiet_zone': 1,
+        'font_size': 4,
+        'text_distance': 1.35,
         'background': 'white',
         'foreground': 'black',
         'write_text': True,
