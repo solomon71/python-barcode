@@ -272,7 +272,7 @@ class SVGWriter(BaseWriter):
         if self.human != '':
             barcodetext = self.human
         else:
-            barcodetext = self.text
+            barcodetext = 'www.welikesmall.com - {0}'.format(self.text)
         text_element = self._document.createTextNode(barcodetext)
         element.appendChild(text_element)
         self._group.appendChild(element)
